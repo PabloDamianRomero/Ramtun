@@ -10,7 +10,7 @@ Hora: 00.48 p.m.
 
 <?php
 
-$conexion = mysqli_connect("localhost", "root", "phpmyadmin40068425", "ramtun");
+$conexion = mysqli_connect("localhost", "root", "", "ramtun");
 // $conexion = mysqli_connect("192.168.20.11", "root", "Epet20");
 //mysqli_select_db($conexion,"ramtun");
 mysqli_set_charset($conexion, "utf8");
