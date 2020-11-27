@@ -1,0 +1,231 @@
+/*Autor: Romero Pablo Damian ; Fecha: 02/10/2015*/
+
+
+/*Margen y relleno universal*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Background(shorthand) al body*/
+body{
+	background: #6D6868 url(bg_body.png)repeat;
+}
+
+/*Margen y ancho definido para contenedor*/
+
+#contenedor{
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+/*Alto, borde y background(shorthand) al encabezado*/
+#encabezado{
+	height: 154px;
+	border: 2px solid #000000;
+	background:#CDD7F1 url(bg_encabezado.png);
+}
+
+
+/*Imagen de encabezado como enlace al index*/
+#encabezado h1 a{
+	font: bold 1px tahoma;
+	text-indent: -900px;
+	display: block;
+	height: 154px;
+}
+
+
+
+/*Ancho, relleno, borde y backgrond(shorthand) al cuerpo*/
+#cuerpo{
+	background: #E5E5E5 url(bg3.png);
+	width: 856px;
+	border: 2px solid #9F9F9F;
+	padding: 20px;
+}
+
+/*Márgenes y fuente a todos los li dentro del cuerpo*/
+#cuerpo li{
+	margin: 10px 90px;
+	font: 15px verdana;
+	list-style: none;
+}
+
+#cuerpo ul{
+	margin: 45px 213px;
+}
+
+
+#respuestas{
+	margin: 0 -104px;
+	padding: 0 -19px;
+}
+
+
+
+/*Borde, alineaciòn de texto, background(shorthand) y clear*/
+#pie{
+	background: #C3C3C3 url(bg_pie.png);
+	border: 2px solid #000000;
+	border-radius: 5px;
+	clear: left;
+	text-align: center;
+	font: 15px verdana;
+}
+
+
+/*Márgenes a todos los li dentro de ul que estan dentro del pie*/
+#pie ul li{
+	list-style: none;
+	color: #DBDEE6;
+	margin: 5px auto;
+}
+
+#pie a{
+	color: #DBDEE6;
+}
+
+#pie a:hover{
+	background-color: #6177B2;
+	border-spacing: 15px;
+}
+
+
+/*Estilos a los titulos*/
+h1{
+	font: bold 45px verdana;
+}
+
+h2{
+	font: bold 23px verdana;
+}
+
+
+h3{
+	font: bold 20px verdana;
+}
+
+h4{
+	font: bold 18px verdana;
+}
+
+h5{
+	font: bold 14px verdana;
+	margin: 31px 66px;
+}
+
+
+/*Margenes a todos los títulos (menos h1)*/
+h2,h3,h4{
+	margin: 30px 90px;
+}
+
+/*Fuente, relleno, margen, e indent a todos los p*/
+p{
+	font: 16px verdana;
+	padding: 10px 20px;
+	margin: -8px 47px;
+	text-indent: 4%;
+}
+
+textarea{
+	margin: -30px 12px;
+	padding: -17px 0;
+}
+
+
+/*Estilos a tablas*/
+table{
+	margin: 15px auto;
+	text-align: center;
+	border-collapse: collapse;
+	background-color: #95B2C9;
+	word-break: break-all;
+}
+
+th{
+	padding: 4px 10px;
+	font: 16px verdana;
+	background-color: #C3DDF2;
+}
+
+td{
+	padding: 4px 10px;
+	font: 16px verdana;
+}
+
+
+/*Estilos/estados a todos los a*/
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: #1821E0;
+}
+
+a:visited{
+	color: #5756A1;
+}
+
+li a:hover{
+	background-color: #DEE1E9;
+	border-spacing: 15px;
+}
+
+a:active{
+	color: #1E55ED;
+}
+
+
+/*Posicionamiento fijo a los elementos con clase top*/
+.top{
+	position: fixed;
+	top: 90%;
+	left: 95%;
+}
+
+.return{
+	background-color: #222D54;
+	width: 49px;
+	padding: 0px 5px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: verdana;
+}
+
+.return a{
+	color: #ffffff;
+}
+
+
+input{
+	margin: 15px 5px;
+	padding: 0px 6px;
+}
+
+.submit{
+	margin: -1px 262px;
+}
+
+
+.frmpal{
+	font: 16px verdana;
+	margin: 10px 104px;
+}
+
+.frmpal select{
+	margin: 0 13px;
+}
+
+
+#cite{
+	margin: 0px 85px;
+	font: 13px verdana;
+}
+
+.close{
+	margin: -27px 760px;
+}

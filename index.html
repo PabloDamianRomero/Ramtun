@@ -1,0 +1,111 @@
+<!--
+Autor: Romero Pablo Damian
+Fecha: 28/08/2015
+Hora: 8:41 a.m.
+---------------------------
+Actualización:
+Fecha: 27/11/2020
+Hora: 00.48 p.m.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="autor" content="Romero Pablo-Ortiz Franco" />
+    <meta name="generator" content="Bluefish 2.2.6" />
+    <meta http-equiv="content-language" content="ES" />
+    <meta
+      name="copyright"
+      content="derechos(Romero Pablo-Ortiz Franco ; 6°1°)"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="html, php, login, registro, ramtun" />
+    <meta name="description" content="Control de acceso a Ramtun" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link type="image/gif" href="style/bullet.gif" rel="shortcut icon" />
+
+    <title>Login Ramtun</title>
+  </head>
+
+  <body>
+    <div id="contenedor">
+      <div id="encabezado">
+        <h1><a href="#">Control de acceso a RAMTUN</a></h1>
+      </div>
+      <!-- end encabezado -->
+
+      <div id="cuerpo">
+        <form action="login.php" method="POST">
+          <h2>Control de acceso</h2>
+          <h4>Inserte sus datos:</h4>
+          <ul>
+            <li>
+              D.N.I.
+              <input
+                type="text"
+                name="dni"
+                required="required"
+                autocomplete="off"
+              />
+            </li>
+            <div id="cite">
+              <cite>*Ingrese su número de dni sin puntos.</cite>
+            </div>
+            <li>
+              Clave
+              <input
+                type="password"
+                name="clave"
+                required="required"
+                autocomplete="off"
+              />
+            </li>
+
+            <h5>Seleccione el cargo al que pertenece</h5>
+            <p>
+              Docente
+              <input
+                type="radio"
+                name="tipo"
+                checked="checked"
+                required="required"
+                value="docentes"
+              />
+            </p>
+            <p>
+              Alumno
+              <input
+                type="radio"
+                name="tipo"
+                required="required"
+                value="alumnos"
+              />
+            </p>
+            <div class="submit"><input type="submit" value="Entrar" /></div>
+          </ul>
+        </form>
+      </div>
+      <!-- end cuerpo -->
+
+      <div id="pie">
+        <ul>
+          <li>
+            <img src="img_mini/date.png" alt="última actualización" /> Última
+            actualización: 30/11/20
+          </li>
+          <li>
+            <img src="img_mini/vscode_s.png" alt="vscode" /><a
+              href="https://code.visualstudio.com"
+            >
+              Made with Visual Studio Code.</a
+            >&nbsp; Autor: Romero Pablo Damian
+          </li>
+        </ul>
+      </div>
+      <!-- end pie -->
+    </div>
+    <!-- end contenedor -->
+  </body>
+</html>
