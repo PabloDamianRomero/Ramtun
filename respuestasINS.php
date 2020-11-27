@@ -2,6 +2,10 @@
 Autor: Romero Pablo Damian
 Fecha: 07/09/2015
 Hora: 8:43 a.m.
+---------------------------
+Actualización:
+Fecha: 30/11/2020
+Hora: 00.48 p.m.
 -->
 
 <?php

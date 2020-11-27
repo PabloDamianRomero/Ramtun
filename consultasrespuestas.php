@@ -1,7 +1,11 @@
 <!--
-Autor: Romero Pablo Damian - Ortiz Franco Octavio
+Autor: Romero Pablo Damian
 Fecha: 28/08/2015
 Hora: 8:47 a.m.
+---------------------------
+Actualización:
+Fecha: 30/11/2020
+Hora: 00.48 p.m.
 -->
 
 <?php
@@ -23,10 +27,10 @@ if ($_SESSION['tiempo']) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="autor" content="Romero Pablo-Ortiz Franco" />
+	<meta name="autor" content="Romero Pablo" />
 	<meta name="generator" content="Bluefish 2.2.6" />
 	<meta http-equiv="content-language" content="ES"/>
-	<meta name="copyright" content="derechos(Romero Pablo-Ortiz Franco ; 6°1°)" />
+	<meta name="copyright" content="derechos(Romero Pablo ; 6°1°)" />
 	<meta name="robots" content="index, follow" />
 	<meta name="keywords" content="html, php, consultas, respuestas, ramtun" />
 	<meta name="description" content="Consultas y Respuestas Ramtun" />

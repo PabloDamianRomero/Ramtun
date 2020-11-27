@@ -2,6 +2,10 @@
 Autor: Romero Pablo Damian
 Fecha: 07/09/2015
 Hora: 8:43 a.m.
+---------------------------
+Actualización:
+Fecha: 30/11/2020
+Hora: 00.48 p.m.
 -->
 
 <?php
@@ -21,10 +25,10 @@ if ($_SESSION['tiempo']) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta name="autor" content="Romero Pablo-Ortiz Franco" />
+	<meta name="autor" content="Romero Pablo" />
 	<meta name="generator" content="Bluefish 2.2.6" />
 	<meta http-equiv="content-language" content="ES"/>
-	<meta name="copyright" content="derechos(Romero Pablo-Ortiz Franco ; 6°1°)" />
+	<meta name="copyright" content="derechos(Romero Pablo ; 6°1°)" />
 	<meta name="robots" content="index, follow" />
 	<meta name="keywords" content="html, php, login, registro, ramtun" />
 	<meta name="description" content="Respuestas Ramtun" />
@@ -164,13 +168,7 @@ if ($_SESSION['tabla'] == 'alumnos') {
 Autor: Romero Pablo Damian</li>
 </ul>
 
-
-
 </div> <!-- end pie -->
-
-
-
-
 </div> <!-- end contenedor -->
 
 </body>
