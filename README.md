@@ -1,5 +1,6 @@
 # Ramtun
 ![Ramtun](https://github.com/PabloDamianRomero/Ramtun/blob/main/style/bg_encabezado.png)
+
 Proyecto de Construcción de Software (2015)
 
 Ramtun es una plataforma web que permite realizar consultas y
